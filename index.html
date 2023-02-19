@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <h1 class="title">Cats</h1>
+    <img id="img1" src="" alt="" />
+    <!-- пробовала задать класс со свойствами картинки для img, чтобы все было одного размера и и не прыгало при нажатии, но в этом случае перед нажатием на кнопку появлялось изображение непрогруженной картинки. пробовала оборачивать в div - тогда кнопки наслаивались на изображенич, а не были под ними. поэтому оставила пока так) -->
+    <div class="buttons">
+      <button onclick="getPic1()" class="buttons__button">Previous</button>
+
+      <button onclick="getPic2()" class="buttons__button">Next</button>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
