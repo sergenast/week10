@@ -23,3 +23,11 @@
     background-color: rgb(32, 31, 31);
     color: white;
 }
+
+.calc {
+    display: grid;
+    grid-template-columns: 60px 60px;
+    grid-template-rows: 40px 40px;
+    grid-gap: 5px;
+    margin-top: 70px;
+}

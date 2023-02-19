@@ -15,3 +15,33 @@ function getPic2() {
     img1.src = 'https://kartinkof.club/uploads/posts/2022-03/1648612809_1-kartinkof-club-p-smeshnie-kartinki-koti-1.jpg';
     img2.alt = 'cat';
 }
+
+
+
+function calcAdd() {
+    let num1 = Number(document.getElementById('num1').value);
+    let num2 = Number(document.getElementById('num2').value);
+    result = num1 + num2;
+    document.getElementById("result").innerHTML = result;
+}
+
+function calcSubtr() {
+    let num1 = Number(document.getElementById('num1').value);
+    let num2 = Number(document.getElementById('num2').value);
+    result = num1 - num2;
+    document.getElementById("result").innerHTML = result;
+}
+
+function calcMult() {
+    let num1 = Number(document.getElementById('num1').value);
+    let num2 = Number(document.getElementById('num2').value);
+    result = num1 * num2;
+    document.getElementById("result").innerHTML = result;
+}
+
+function calcDiv() {
+    let num1 = Number(document.getElementById('num1').value);
+    let num2 = Number(document.getElementById('num2').value);
+    result = num1 / num2;
+    document.getElementById("result").innerHTML = result;
+}
